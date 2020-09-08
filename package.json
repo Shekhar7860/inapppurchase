@@ -1,0 +1,45 @@
+{
+  "name": "Jamon",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-firebase": "^5.6.0",
+    "react-native-gesture-handler": "^1.5.3",
+    "react-native-iap": "^4.4.6",
+    "react-native-keyboard-aware-scrollview": "^2.1.0",
+    "react-native-loading-spinner-overlay": "^1.1.0",
+    "react-native-media-controls": "^1.1.1",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-safe-area-context": "^0.6.2",
+    "react-native-simple-toast": "^1.0.0",
+    "react-native-size-matters": "^0.3.0",
+    "react-native-youtube": "^2.0.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^1.10.2",
+    "react-navigation-tabs": "^2.5.6",
+    "with-query": "^1.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.7",
+    "@babel/runtime": "7.7.7",
+    "@react-native-community/eslint-config": "0.0.5",
+    "babel-jest": "24.9.0",
+    "eslint": "6.8.0",
+    "jest": "24.9.0",
+    "jetifier": "^1.6.5",
+    "metro-react-native-babel-preset": "0.56.3",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
